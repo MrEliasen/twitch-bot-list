@@ -2,7 +2,7 @@
 
 This is a list of (imo) useless Twitch IRC bots.
 
-The purpose of this list is for use with the [Twitch Bot Banner](https://twitch-bot-banner.sirmre.com/).
+The purpose of this list is for use with the [Ban Twitch Bots](https://ban-twitch-bots.sirmre.com/) web-app.
 
 **Please Note**: I am not against the creation of these bots, I just don't want them receiving subs gifted by the community.
 
