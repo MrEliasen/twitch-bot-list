@@ -1,10 +1,8 @@
 # Twitch Bot List
 
-This is a list of (imo) useless Twitch IRC bots.
+The list of bots is currently extracted from [Twitch Insights](https://twitchinsights.net/bots). The purpose of this list is for use with the [Ban Twitch Bots](https://ban-twitch-bots.sirmre.com/) web-app.
 
-The purpose of this list is for use with the [Ban Twitch Bots](https://ban-twitch-bots.sirmre.com/) web-app.
-
-**Please Note**: I am not against the creation of these bots, I just don't want them receiving subs gifted by the community.
+The reason for having this list is to allow people to ban them in their channels so they do not receive subs gifted by the community.
 
 ## Contributing
 
