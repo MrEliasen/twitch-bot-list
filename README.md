@@ -4,6 +4,10 @@ The list of bots is currently extracted from [Twitch Insights](https://twitchins
 
 The reason for having this list is to allow people to ban them in their channels so they do not receive subs gifted by the community.
 
+## Greylisting
+
+These are bots/accounts which MIGHT be ok not to ban. The list includes community bots and similar. You can opt in to ban thene on the website as these are not part of the default list.
+
 ## Contributing
 
 If you would would like to contribute, please see [CONTRIBUTING.md](https://github.com/MrEliasen/twitch-bot-list/blob/master/.github/CONTRIBUTING.md). Thank you!
