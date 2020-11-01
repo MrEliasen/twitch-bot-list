@@ -1,5 +1,7 @@
 # Twitch Bot List
 
+**IMPORTANT**: Please see this issue [Depreciation and shutdown of the website](https://github.com/MrEliasen/twitch-bot-list/issues) and vote on whether to shut down this repo (and accompanied website) or keep it up.
+
 The list of bots is currently extracted from [Twitch Insights](https://twitchinsights.net/bots). The purpose of this list is for use with the [Ban Twitch Bots](https://ban-twitch-bots.sirmre.com/) website.
 
 The reason for having this list is to allow people to ban them in their channels so they do not receive subs gifted by the community. The accounts found on the list are not necessarily actual bots, but are in a lot of channels at the same time, making them essentially a "bot" in these channels.
