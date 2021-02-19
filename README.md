@@ -1,10 +1,28 @@
 # Twitch Bot List
 
-**IMPORTANT**: Please see this issue [Depreciation and shutdown of the website](https://github.com/MrEliasen/twitch-bot-list/issues) and vote on whether to shut down this repo (and accompanied website) or keep it up.
-
-The list of bots is currently extracted from [Twitch Insights](https://twitchinsights.net/bots). The purpose of this list is for use with the [Ban Twitch Bots](https://ban-twitch-bots.sirmre.com/) website.
+The list of bots is currently extracted from [Twitch Insights](https://twitchinsights.net/bots). The purpose of this list is for use with the [Ban Twitch Bots](https://ban-twitch-bots.sirmre.com/) website. Thank you for providing this information <3.
 
 The reason for having this list is to allow people to ban them in their channels so they do not receive subs gifted by the community. The accounts found on the list are not necessarily actual bots, but are in a lot of channels at the same time, making them essentially a "bot" in these channels.
+
+## How to use these lists
+
+**To avoid hammering Twitch Insights website, eating up their bandwidth**, please feel free to use this repository as a "CDN" of sorts or make your own. I have included a very simple script which takes the data from Twitch Insights and updates the list.json see [parse.js](https://github.com/MrEliasen/twitch-bot-list/blob/master/parse.js).
+
+This is an example of how you can load the list from the browser:
+
+```js
+fetch('https://mreliasen.github.io/twitch-bot-list/list.json', {
+    method: 'GET',
+})
+.then((response) => {
+    // parse the response body as json
+    return response.json();
+})
+.then((response) => {
+    // do something with the list here.
+    console.log(response);
+})
+```
 
 ## Greylisting
 
