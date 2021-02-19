@@ -1,0 +1,20 @@
+{
+  "name": "twitch-bot-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parse.js",
+  "scripts": {
+    "test": "update-list"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrEliasen/twitch-bot-list.git"
+  },
+  "author": "MrEliasen/SirMrE",
+  "bugs": {
+    "url": "https://github.com/MrEliasen/twitch-bot-list/issues"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
