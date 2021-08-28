@@ -4,7 +4,7 @@
   "description": "",
   "main": "parse.js",
   "scripts": {
-    "test": "update-list"
+    "update-list": "node parse.js"
   },
   "repository": {
     "type": "git",
