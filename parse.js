@@ -60,7 +60,7 @@ class UpdateBotList {
             filteredBots.push(name);
         }
 
-        fs.writeFileSync('list.json', JSON.stringify(filteredBots), 'utf8');
+        fs.writeFileSync('list.json', JSON.stringify(filteredBots, null, 2), 'utf8');
         console.log('The list.json now contains ' + filteredBots.length + ' usernames.');
     }
 }
