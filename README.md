@@ -1,36 +1,22 @@
-# Twitch Bot List
+# Twitch Bot List (Whitelist/Greylist)
 
-The list of bots is currently extracted from [Twitch Insights](https://twitchinsights.net/bots). The purpose of this list is for use with the [Ban Twitch Bots](https://ban-twitch-bots.sirmre.com/) website. Thank you for providing this information <3.
+The list of white/greylisted bots/accounts. The purpose of this list is for use with the [Ban Twitch Bots](https://ban-twitch-bots.sirmre.com/) website.
 
-The reason for having this list is to allow people to ban them in their channels so they do not receive subs gifted by the community. The accounts found on the list are not necessarily actual bots, but are in a lot of channels at the same time, making them essentially a "bot" in these channels.
+You are most welcome to submit a PR if you would like to add/remove an account from any of the lists.
 
-## How to use these lists
+## Update Sep. 19th 2021
 
-**To avoid hammering Twitch Insights website, eating up their bandwidth**, please feel free to use this repository as a "CDN" of sorts or make your own. I have included a very simple script which takes the data from Twitch Insights and updates the list.json see [parse.js](https://github.com/MrEliasen/twitch-bot-list/blob/master/parse.js).
+This repository no longer serves a list of bots. Instead it now only acts as a white/greylist. The list of bots/accounts are now loaded directly from [Twitch Insights](https://twitchinsights.net/bots) on the website.
 
-This is an example of how you can load the list from the browser:
-
-```js
-fetch('https://mreliasen.github.io/twitch-bot-list/list.json', {
-    method: 'GET',
-})
-.then((response) => {
-    // parse the response body as json
-    return response.json();
-})
-.then((response) => {
-    // do something with the list here.
-    console.log(response);
-})
-```
+I have left the `parse.js` file in the repo, in case anyone need to build in their own bot list with data from [Twitch Insights](https://twitchinsights.net/bots).
 
 ## Greylisting
 
-These are bots/accounts which MIGHT be ok not to ban. The list includes community bots and similar. You can opt in to ban thene on the website as these are not part of the default list.
+These are bots/accounts which *should* be fine to allow. You can opt in to ban them on the website if you wish.
 
 ## Whitelisting
 
-These are bots/accounts which won't get added to the ban or grey list. These are all considered safe. These are for reference only and are not actually used in the website.
+These are bots/accounts which are generally well established/verified bots. These accounts are excluded from the ban list on the website.
 
 ## Contributing
 
