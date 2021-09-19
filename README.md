@@ -20,6 +20,8 @@ These are bots/accounts which are generally well established/verified bots. Thes
 
 ## Contributing
 
+I am more than happy to take PR's for adding and removing accounts from the white/grey lists. However please do note, it might be the account in question ends up on the grey list instead of the whitelist.
+
 If you would would like to contribute, please see [CONTRIBUTING.md](https://github.com/MrEliasen/twitch-bot-list/blob/master/.github/CONTRIBUTING.md). Thank you!
 
 ## License
